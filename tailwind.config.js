@@ -3,9 +3,10 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [
-	"./pages/**/*.js"
-],
+  purge: {
+	mode: "layers",
+	content:["./pages/**/*.js"]
+},
   theme: {
     extend: {},
   },
