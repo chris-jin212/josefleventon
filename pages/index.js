@@ -11,6 +11,7 @@ const Home = ({ posts }) => {
 			<main>
 				<p className="text-teal-600">Hello World!</p>
 			</main>
+		</div>
 		)
 }
 
